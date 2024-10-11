@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>에스베야@es__bella__</title>
+  <link rel="shortcut icon" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="imgs/instagram_logo.svg" alt="instagram logo">
+    </div>
+    <ul class="nav_item">
+      <li class="item home"><span>홈</span></li>
+      <li class="item search"><span>검색</span></li>
+      <li class="item tab"><span>탐색 탭</span></li>
+      <li class="item rils"><span>릴스</span></li>
+      <li class="item message"><span>메시지</span></li>
+      <li class="item info"><span>알림</span></li>
+      <li class="item create"><span>만들기</span></li>
+      <li class="item profile"><span>프로필</span></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <main>
+      <div class="profile">
+        <div class="profile_main">
+          <div class="profile_img">
+            <img src="imgs/profile_img.jpeg" alt="profile logo">
+          </div>
+          <div class="profile_detail">
+            <div class="detail_name">
+              <span class="user_name">es__bella__</span>
+              <div class="btns">
+                <button class="btn_profile_edit">프로필 편집</button>
+                <dialog class="profile_edit_modal">
+                  <form method="dialog">
+                    <header class="modal_header">
+                      프로필 편집
+                      <button class="modal_header_btn">저장</button>
+                    </header>
+                    <div class="profile_update_main">
+                      <label for="profile_file"></label>
+                      <input type="file" accept="image/png, image/gif, image/jpeg" name="profile_file" id="profile_file">
+                      <div class="modal_input">
+                        <label for="modal_input_id"></label>
+                        <input type="text" id="modal_input_id" placeholder="인스타 아이디">
+                      </div>
+                      <div class="modal_input">
+                        <label for=""></label>
+                        <input type="text">
+                      </div>
+                      <div class="modal_input">
+                        <label for=""></label>
+                        <input type="text">
+                      </div>
+                      <div class="modal_input">
+                        <label for=""></label>
+                        <textarea name="" id=""></textarea>
+                      </div>
+                    </div>
+                  </form>
+                </dialog>
+                <button class="btn_story_view">보관된 스토리 보기</button>
+              </div>
+              <button class="btn_setting"></button>
+            </div>
+            <div class="detail_info">
+              <span>게시물 <b>0</b></span>
+              <span>팔로워 <b>103</b></span>
+              <span>팔로우 <b>96</b></span>
+            </div>
+            <div class="detail_text">
+              <b>에스베야</b>
+              <span>Hola! soy Bella 👋</span>
+              <a href="https://github.com/WolgyeBella" id="profile_link">https://github.com/WolgyeBella</a>
+            </div>
+          </div>
+        </div>
+        <ul class="profile_story">
+          <li class="stroy_item">
+            <img src="imgs/story_img1.jpg" alt="story img">
+          </li>
+          <li class="stroy_item">
+            <img src="imgs/story_item2.jpg" alt="story img">
+          </li>
+          <li class="stroy_item">
+            <img src="imgs/story_item3.jpg" alt="story img">
+          </li>
+          <li class="stroy_item">
+            <img src="imgs/story_item4.jpg" alt="story img">
+          </li>
+          <li class="stroy_item">
+            <img src="imgs/story_item5.jpg" alt="story img">
+          </li>
+        </ul>
+      </div>
+      <div class="contents">
+        <div class="contents_btns">
+          <button class="content_btn btn_content_view active"><span>게시물</span></button>
+          <button class="content_btn btn_save_view"><span>저장됨</span></button>
+          <button class="content_btn btn_tag_view"><span>태그됨</span></button>
+        </div>
+        <section class="contents_display">
+          
+        </section>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer_btns">
+        <li class="btn btn1">Meta</li>
+        <li class="btn btn2">소개</li>
+        <li class="btn btn3">블로그</li>
+        <li class="btn btn4">채용 정보</li>
+        <li class="btn btn5">도움말</li>
+        <li class="btn btn6">API</li>
+        <li class="btn btn7">개인정보처리방침</li>
+        <li class="btn btn8">약관</li>
+        <li class="btn btn9">위치</li>
+        <li class="btn btn10">Instagram Lite</li>
+        <li class="btn btn11">Threads</li>
+        <li class="btn btn12">연락처 업로드 & 비사용자</li>
+        <li class="btn btn13">Meta Verified</li>
+      </ul>
+      <div class="footer_bottom">
+        <div class="footer_lang">
+          <select name="lang" id="lang">
+            <option value="한국어">한국어</option>
+            <option value="영어">English</option>
+            <option value="중국어">中國語</option>
+            <option value="일본어">日本語</option>
+            <option value="스페인어">Español</option>
+          </select>
+        </div>
+        <span>© 2024 Instagram from Meta</span>
+      </div>
+    </footer>
+  </div>
+  <div class="popup_create_contents">
+    <div class="popup_container">
+      <header>
+        <p>새 게시물 만들기</p>
+        <button class="btn_post">공유하기</button>
+      </header>
+      <main>
+        <section class="before_upload">
+          <img src="imgs/media_icon.svg" alt="media icon">
+          <p>사진을 선택하세요.</p>
+          <label for="add_post_file" class="btn_choose_img">컴퓨터에서 선택</label>
+          <input type="file" accept="image/png, image/gif, image/jpeg" name="add_post_file" id="add_post_file">
+        </section>
+        <section class="after_upload">
+          <div class="preview_img_container">
+            <img class="preview_img" src="imgs/create_img_01.jpg" alt="choose img">
+          </div>
+          <div class="text_container">
+            <textarea name="text_area" id="text_area" placeholder="여기에 내용을 입력하세요."></textarea>
+          </div>
+        </section>
+      </main>
+    </div>
+  <button class="btn_close">
+    <img src="imgs/close_icon.svg" alt="close icon">
+  </button>
+  </div>
+   <script src="update_instagram.js"></script>
+</body>
+</html>
